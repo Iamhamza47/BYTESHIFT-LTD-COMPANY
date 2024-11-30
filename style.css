@@ -1,0 +1,74 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: green;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: green;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid green;
+    background-color: black;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea, form button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid green;
+    background: black;
+    color: green;
+}
+
+form button {
+    cursor: pointer;
+    border: 2px solid green;
+}
